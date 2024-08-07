@@ -1,0 +1,8 @@
+<p class="alert" 
+[ngClass]="{
+    'alert-info' : usernameVal,
+    'alert-danger' : !usernameVal
+}">
+    <!-- The username is <strong>{{usernameVal}}</strong>  -->
+    {{usernameVal ? 'The username is ' + usernameVal : 'No username is available !!'}}
+</p>

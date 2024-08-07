@@ -1,0 +1,12 @@
+.postCard{
+    .title{
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    
+    .userbody{
+        height : 100px;
+        overflow-y: scroll;
+    }
+}

@@ -1,0 +1,8 @@
+
+<!-- https://jsonplaceholder.typicode.com/posts -->
+
+<div class="row">
+    <div class="col-md-4" *ngFor="let postCard of postArr">
+         <app-postcard [postObj]="postCard"></app-postcard>
+    </div>
+</div>
